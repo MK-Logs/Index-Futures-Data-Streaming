@@ -1,0 +1,10 @@
+CREATE TABLE StocksDataStream(
+	stream_id VARCHAR(250),
+	last_price float,
+	mid_price float,
+	transacted_qty float,
+	bid float,
+    ask float,
+	bid_Volume float,
+	ask_Volume float
+);
